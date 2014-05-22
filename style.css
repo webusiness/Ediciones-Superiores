@@ -1,0 +1,295 @@
+/*
+Theme Name: Ediciones Superiores
+Theme URI: http://edicionessuperiores.com
+Description:
+Version: 0.1
+Author: Webusiness
+Author URI: http://Webusiness.co
+Tags:
+*/
+
+@import "css/reset.css";
+@import "css/layout.css";
+
+/* ********** body ********** */
+body{
+	background: #FFF;
+	font-family: helvetica;
+	text-align: justify;
+}
+
+/* ********** Header ********** */
+#ico-sociales div {
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+}
+#cabecera {
+	background: #005DAB;
+}
+#telefono {
+	background: rgb(11,18,29);
+	background: -moz-linear-gradient(top, rgba(11,18,29,1) 0%, rgba(21,35,55,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(11,18,29,1)), color-stop(100%,rgba(21,35,55,1)));
+	background: -webkit-linear-gradient(top, rgba(11,18,29,1) 0%,rgba(21,35,55,1) 100%);
+	background: -o-linear-gradient(top, rgba(11,18,29,1) 0%,rgba(21,35,55,1) 100%);
+	background: -ms-linear-gradient(top, rgba(11,18,29,1) 0%,rgba(21,35,55,1) 100%);
+	background: linear-gradient(to bottom, rgba(11,18,29,1) 0%,rgba(21,35,55,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b121d', endColorstr='#152337',GradientType=0 );
+	color: #fff;
+	font-size: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+/* ********** Menu ********** */
+.current-menu-item a{
+	background: #DADADA;
+	color: #015EAC !important;
+	padding: 40px 10px 40px 10px;
+
+}
+/* ********** Inicio ********** */
+#owl-inicio .item{
+  display: block;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+#owl-inicio .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#valores{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #D9D7D9;
+	text-align: center;
+}
+#fondo{
+	background: #D9D7D9;
+	margin-bottom: 30px;
+}
+.img-inicio {
+	width: 100px;
+	float: left;
+}
+.txt-inicio {
+	margin-top: 30px;
+	margin-left: 110px;
+}
+.correo-inicio,
+.tel-inicio,
+.direccion-inicio {
+	font-family: helvetica;
+	font-weight: bold;
+	color: #464646;
+	font-size: 16px;
+}
+.tel-inicio {
+	font-size: 25px;
+}
+#nav-menu, #logo{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+#cabecera > div.row.grid {
+	overflow: visible;
+}
+/* ********** Menu y SubMenu ********** */
+ul li a:hover {
+	background: #015EAC;
+	color:#fff;
+}
+ul.sub-menu {
+	margin-top: 38px !important;
+}
+ul.sub-menu li > ul {
+	margin-top: 0px !important;
+}
+.menu ul.sub-menu li a{
+	padding: 10px;
+	text-align: center;
+	color: #015EAB;
+}
+.menu ul.sub-menu li a:hover{
+	background: #015EAC;
+	color:#fff;
+}
+/* ********** Paginas ********** */
+.breadcrumb {
+	background: #015EAB;
+	padding: 15px;
+}
+.titulo {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.destacada {
+	text-align: center;
+}
+.destacada img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* ********** Servicios ********** */
+.wpcf7 form ul {
+	width:100%;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.wpcf7 form ul li{
+	float: left;
+}
+li#enviar-cotizar {
+	float: none;
+	clear: both;
+	margin-left: 119px;
+}
+.wpcf7 form li{
+    padding:0px;
+    position:relative;
+}
+.wpcf7 form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+	width: 120px;
+}
+.wpcf7 form input {
+	height: 34px;
+}
+.wpcf7 form textarea {
+    padding:8px;
+}
+textarea#comentario {
+	width: 757px;
+}
+.wpcf7 form button {
+    margin-left:90px;
+}
+.contenedor-items{
+	border: 1px solid #E4E4E4;
+}
+/* ********** Categorias ********** */
+.contenedor-items{
+	margin-left: 0.83%;
+	margin-right: 0.83%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	float: left;
+	display: block;
+	width: 48.333333333333%;
+	max-height: 430px;
+	min-height: 430px;
+	overflow: hidden;
+}
+.img-item {
+	max-width: 100%;
+	max-height: 303px;
+	overflow: hidden;
+	text-align: center;
+}
+.img-item > a > img {
+	width: 444px;
+	height: 303px;
+}
+.titulo-item {
+	color: #005DAB;
+	font-size: 30px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.des-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	min-height: 48px;
+}
+.ver-mas {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 5px
+}
+/* ********** Galeria para Portafolio ********** */
+#sync1 .item{
+    text-align: center;
+}
+#sync2 .item{
+    padding: 10px 0px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .synced .item{
+  background: none;
+}
+/* ********** Contactenos ********** */
+#datos {
+	border: 1px solid #a7a7a7;
+}
+#datos li {
+	list-style: none;
+	font-size: 14px;
+}
+#datos div {
+	margin-top: 20px;
+	margin-left: 4px;
+}
+.ico-contacto {
+	float: left;
+	clear: both;
+}
+.info-contacto{
+	float: left;
+}
+.icono-mail:before {
+	content: url(images/icono-mail.png);
+	float: left;
+	clear: both;
+}
+.icono-tel:before {
+	content: url(images/icono-tel.png);
+	float: left;
+	clear: both;
+}
+.icono-casa:before {
+	content: url(images/icono-casa.png);
+	float: left;
+	clear: both;
+}
+.wpcf7 form > p {
+	color: #355EA7;
+	margin-bottom: 6px;
+}
+/* ********** Error 404 ********** */
+.error{
+	min-height: 300px;
+}
+/* ********** Footer ********** */
+footer {
+	background: #09111B;
+	color: #fff;
+	font-family: helvetica;
+}
+.titulo-footer {
+	color: #355EA7;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
